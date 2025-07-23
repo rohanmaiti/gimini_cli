@@ -1,0 +1,34 @@
+{
+  "name": "gemini-cli-chat",
+  "version": "2.0.5",
+  "description": "Gemini AI CLI with markdown and colorful UX",
+  "main": "bin/gemini.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./postinstall.js"
+  },
+  "keywords": [
+    "gemini",
+    "cli",
+    "ai",
+    "chatbot"
+  ],
+  "author": "Rohan Maiti",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "gemini": "./bin/gemini.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "boxen": "^7.0.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.3.0",
+    "marked": "^9.1.6",
+    "marked-terminal": "^7.3.0",
+    "ora": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
