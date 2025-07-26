@@ -4,8 +4,8 @@
   "description": "Gemini AI CLI with markdown and colorful UX",
   "main": "bin/gemini.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./postinstall.js"
+    "postinstall": "node ./postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "gemini",
