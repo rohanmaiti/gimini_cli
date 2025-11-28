@@ -1,6 +1,6 @@
 {
   "name": "gemini-cli-chat",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Gemini AI CLI with markdown and colorful UX",
   "main": "bin/gemini.js",
   "scripts": {
